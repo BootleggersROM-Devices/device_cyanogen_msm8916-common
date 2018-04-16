@@ -19,3 +19,6 @@ PLATFORM_PATH := device/cyanogen/msm8916-common
 include $(PLATFORM_PATH)/board/*.mk
 
 ALLOW_MISSING_DEPENDENCIES=true
+
+# Dexpreopt
+WITH_DEXPREOPT := true
